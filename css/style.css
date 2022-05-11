@@ -17,6 +17,10 @@ body{
 
 header{
     background-color: #ff6900;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1; */
 }
 
 .content{
@@ -141,6 +145,20 @@ img{
     line-height: 25px;
 }
 
+.green-label-second{
+    width: 110px;
+    height: 25px;
+    background-color:#008000;
+    color: white;
+    position: absolute;
+    left: 0px;
+    bottom: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
 .none{
     position: absolute;
     top: 0;
@@ -167,9 +185,11 @@ p{
     font-size: 13px;
     font-weight: 500;
     color: white;
+    line-height: 25px;
 }
 
 .icon-bottom{
     display: flex;
     justify-content: center;
+    line-height: 30px;
 }
