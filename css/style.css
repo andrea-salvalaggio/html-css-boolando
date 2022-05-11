@@ -41,7 +41,7 @@ ul{
 
 li{
     list-style: none;
-    padding: 5px;
+    padding-right: 10px;
 }
 
 a{
@@ -53,6 +53,106 @@ a{
     padding: 0 5px;
 }
 
+/* Parte centrale */
+.card{
+    width: calc(100% / 3 - 20px);
+    /* height: 400px; */
+    margin: 10px;
+    background-color: white;
+    position: relative;
+}
+
+.content-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+img{
+    width: 100%;
+}
+
+.description{
+    line-height: 22px;
+}
+
+.brand{
+    font-weight: 400;
+    color: black;
+}
+
+.title{
+    color: black;
+}
+
+.price-sale{
+    font-weight: 800;
+    color: red;
+}
+
+.price-notsale{
+    text-decoration: line-through;
+}
+
+.heart{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 35px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.heart:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.sale-label{
+    width: 55px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.green-label{
+    width: 110px;
+    height: 25px;
+    background-color:#008000;
+    color: white;
+    position: absolute;
+    left: 60px;
+    bottom: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.none{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.none:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+
 /* Parte conclusiva */
 footer{
     background-color: #1a1a1a;
@@ -61,8 +161,6 @@ footer{
 p{
     color: white;
     font-weight: 800;
-    padding: 5px;
-
 }
 
 .info-footer{
